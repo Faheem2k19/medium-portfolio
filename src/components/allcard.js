@@ -1,4 +1,4 @@
-import { mediumURL } from '@/pages/api/hello'
+import { mediumURL, socialprofils } from '@/pages/api/hello'
 import { useEffect, useState } from 'react'
 import Articlecard from './cards'
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
@@ -41,7 +41,7 @@ const Allcards = () => {
 
                     </div>
                     <div className="flex justify-center">
-                        <Link href={"/"} className="bg-gray-700 hover:bg-gray-800 text-white font-bold py-2 px-4 rounded flex items-center">
+                        <Link href={socialprofils.medium} className="bg-gray-700 hover:bg-gray-800 text-white font-bold py-2 px-4 rounded flex items-center">
                                 View All <HiOutlineArrowNarrowRight className="ml-2" size={20}/>
                         </Link>
                     </div>
