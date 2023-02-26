@@ -1,0 +1,15 @@
+@tailwind base;
+
+html{
+  position:relative; 
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+
+html,body{
+  overflow-x: hidden;
+}
+
+.pageContentWrapper{
+  margin-bottom:100px;
+} 

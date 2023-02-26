@@ -1,0 +1,40 @@
+import Head from 'next/head'
+import Layout from '@/layout/layout'
+import { aboutSeo } from './api/hello'
+
+<Head>
+  <title>{aboutSeo.title}</title>
+  <meta name="description" content={aboutSeo.desc} />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.ico" />
+</Head>
+
+<div className="lg:container lg:mx-auto md:container md:mx-auto xl:container xl:mx-auto 2xl:container 2xl:mx-auto">
+<Layout>
+<div className="flex justify-center pt-14 pb-10 sm:px-6">
+
+<article className="prose lg:prose-xl">
+
+## About me
+<hr className="border-4 border-violet-400 duration-500" />
+
+
+_**A dreamer, a daydreamer who is practically living life, a bit out of reality**_.
+
+![The San Juan Mountains are beautiful!](https://media.licdn.com/dms/image/C5616AQGFmUakJEGpxA/profile-displaybackgroundimage-shrink_350_1400/0/1613500636229?e=1682553600&v=beta&t=L3eSek5iYTbxWJJXkTq10a9aEfyI2rcl0xIhM_yXmJ8)
+
+> Born in 1996. Raised in Chittagong and currently living in Dhaka, the two most beautiful and developed cities of Bangladesh.
+
+In 2020, I have completed my bachelor’s degree in CSE from North South University. Moreover, I am a software engineer proficient in Python, React, pandas, numpy, Bootstrap, node js, Django framework and Web designing.
+
+I’m still learning and I believe this will help me to bring the best version of me. So, what are my hobbies? Well, I enjoy taking photos. I am more enthusiastic about taking pictures of nature, people, still life and moments with which I can connect eternally.
+
+
+
+Learn more about me at [https://asifulalam.me](https://asifulalam.me)
+
+
+</article>
+</div>
+</Layout>
+</div>
