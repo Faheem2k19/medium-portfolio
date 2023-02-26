@@ -1,4 +1,4 @@
-import { classNames } from '@/utils';
+import { classNames } from '@/utils/classnames';
 import { useEffect, useState } from 'react';
 import { IoIosArrowUp } from 'react-icons/io';
 
